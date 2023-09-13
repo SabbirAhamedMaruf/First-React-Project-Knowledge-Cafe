@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import { BiBookmark } from "react-icons/bi";
-const Blog = ({ data, hashtags, handleAddToBookmark }) => {
+const Blog = ({ data, hashtags, handleAddToBookmark,handleMarkAsRead }) => {
   const {
     cover_image,
     title,
@@ -47,7 +47,7 @@ const Blog = ({ data, hashtags, handleAddToBookmark }) => {
               <span key={idx}>#{i} </span>
             ))}
           </p>
-          <button className="text-purple-500 underline mt-4">
+          <button onClick={()=>{handleMarkAsRead(parseInt(time_to_read))}} className="text-purple-500 underline mt-4">
             Mark as read
           </button>
         </div>
@@ -60,6 +60,7 @@ Blog.propTypes = {
   data: PropTypes.object,
   hashtags: PropTypes.array,
   handleAddToBookmark: PropTypes.func,
+  handleMarkAsRead: PropTypes.func
 };
 
 export default Blog;

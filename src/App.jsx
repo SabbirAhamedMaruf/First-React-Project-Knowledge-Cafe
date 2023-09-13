@@ -12,12 +12,20 @@ function App() {
     const newBookmarks = [...bookmarks,currentBlog];
     setBookMarks(newBookmarks);
   }
+
+  let [markAsRead, setMarkAsRead] = useState(0);
+  const handleMarkAsRead =(time)=>{
+    markAsRead=markAsRead+time;
+    setMarkAsRead(markAsRead);
+  }
+  console.log(markAsRead);
+
   return (
     <>
       <Header></Header>
       <div className="flex justify-center gap-8 w-4/5 m-auto mt-10">
-        <Blogs  handleAddToBookmark={handleAddToBookmark}></Blogs>
-        <Bookmarks  bookmarks={bookmarks}>
+        <Blogs  handleAddToBookmark={handleAddToBookmark} handleMarkAsRead={handleMarkAsRead}></Blogs>
+        <Bookmarks  bookmarks={bookmarks} markAsRead={markAsRead}>
           
         </Bookmarks>
       </div>
