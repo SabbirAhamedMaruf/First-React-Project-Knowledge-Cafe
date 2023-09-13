@@ -1,0 +1,92 @@
+[
+  {
+    "cover_image": "./blog.png",
+    "title": "Exploring the Mysteries of Deep Space",
+    "author": "John Astronomer",
+    "author_image": "./author.png",
+    "time_to_read": "15",
+    "hashtags": ["space", "astronomy", "exploration"],
+    "posted_date": "Mar 14 (4 Days Ago)"
+  },
+  {
+    "cover_image": "./blog.png",
+    "title": "Cooking Adventures: From Pancakes to Pasta",
+    "author": "Chef Cooksalot",
+    "author_image": "./author.png",
+    "time_to_read": "10",
+    "hashtags": ["cooking", "recipes", "foodie"],
+    "posted_date": "Mar 14 (4 Days Ago)"
+  },
+  {
+    "cover_image": "./blog.png",
+    "title": "The Art of Digital Painting",
+    "author": "Artistic Illustrator",
+    "author_image": "./author.png",
+    "time_to_read": "20",
+    "hashtags": ["art", "digitalart", "illustration"],
+    "posted_date": "Mar 14 (4 Days Ago)"
+  },
+  {
+    "cover_image": "./blog.png",
+    "title": "Traveling the World on a Budget",
+    "author": "Wanderlust Explorer",
+    "author_image": "./author.png",
+    "time_to_read": "12",
+    "hashtags": ["travel", "adventure", "budget"],
+    "posted_date": "Mar 14 (4 Days Ago)"
+  },
+  {
+    "cover_image": "./blog.png",
+    "title": "Fitness and Well-being: A Holistic Approach",
+    "author": "Health Guru",
+    "author_image": "./author.png",
+    "time_to_read": "18",
+    "hashtags": ["fitness", "wellness", "health"],
+    "posted_date": "Mar 14 (4 Days Ago)"
+  },
+  {
+    "cover_image": "./blog.png",
+    "title": "The Future of Artificial Intelligence",
+    "author": "AI Enthusiast",
+    "author_image": "./author.png",
+    "time_to_read": "25",
+    "hashtags": ["AI", "technology", "future"],
+    "posted_date": "Mar 14 (4 Days Ago)"
+  },
+  {
+    "cover_image": "./blog.png",
+    "title": "Gardening Tips for Urban Dwellers",
+    "author": "Green Thumb",
+    "author_image": "./author.png",
+    "time_to_read": "8",
+    "hashtags": ["gardening", "urban", "plants"],
+    "posted_date": "Mar 14 (4 Days Ago)"
+  },
+  {
+    "cover_image": "./blog.png",
+    "title": "Exploring Underwater Ecosystems",
+    "author": "Marine Biologist",
+    "author_image": "./author.png",
+    "time_to_read": "22",
+    "hashtags": ["marinebiology", "ocean", "ecosystems"],
+    "posted_date": "Mar 14 (4 Days Ago)"
+  },
+  {
+    "cover_image": "./blog.png",
+    "title": "The History of Ancient Civilizations",
+    "author": "Historian Scholar",
+    "author_image": "./author.png",
+    "time_to_read": "30",
+    "hashtags": ["history", "civilizations", "ancient"],
+    "posted_date": "Mar 14 (4 Days Ago)"
+  },
+  {
+    "cover_image": "./blog.png",
+    "title": "The Science of Time Travel",
+    "author": "Time Traveler",
+    "author_image": "./author.png",
+    "time_to_read": "40",
+    "hashtags": ["timetravel", "science", "paradoxes"],
+    "posted_date": "Mar 14 (4 Days Ago)"
+  }
+]
